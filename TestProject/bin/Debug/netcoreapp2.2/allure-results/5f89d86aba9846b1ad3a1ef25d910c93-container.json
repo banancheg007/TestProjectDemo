@@ -1,0 +1,10 @@
+{
+  "uuid": "0-1001-ignored",
+  "name": "TestProject.tests.SmokeTest",
+  "children": [],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1578688921168,
+  "stop": 1578688927484
+}

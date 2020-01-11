@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{87D334AC-AED4-40ED-AA72-C94D092746CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95A2F194-02B0-4E41-8407-226E0BFC31E4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\.nuget\packages\allure.commons\2.3.64.1\lib\netstandard2.0\allureConfig.json = ..\..\..\.nuget\packages\allure.commons\2.3.64.1\lib\netstandard2.0\allureConfig.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87D334AC-AED4-40ED-AA72-C94D092746CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D334AC-AED4-40ED-AA72-C94D092746CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D334AC-AED4-40ED-AA72-C94D092746CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D334AC-AED4-40ED-AA72-C94D092746CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99C29FAF-87AA-4B7C-BBEE-8A6D4CA5324F}
+	EndGlobalSection
+EndGlobal

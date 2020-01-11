@@ -1,0 +1,166 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "b963c2071b2b491eb50d38b1896ccac97012114b"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "TestProject/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.Test.Sdk": "16.4.0",
+          "NUnit": "3.12.0",
+          "NUnit.Allure": "1.0.6.2",
+          "NUnit3TestAdapter": "3.16.0",
+          "Selenium.Support": "3.141.0",
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "runtime": {
+          "TestProject.dll": {}
+        }
+      },
+      "Allure.Commons/2.3.64.1": {
+        "dependencies": {
+          "MimeTypesMap": "1.0.3",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Allure.Commons.dll": {
+            "assemblyVersion": "2.3.64.1",
+            "fileVersion": "2.3.64.1"
+          }
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.4.0": {},
+      "MimeTypesMap/1.0.3": {
+        "runtime": {
+          "lib/netstandard1.3/MimeTypesMap.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "NUnit/3.12.0": {
+        "runtime": {
+          "lib/netstandard2.0/nunit.framework.dll": {
+            "assemblyVersion": "3.12.0.0",
+            "fileVersion": "3.12.0.0"
+          }
+        }
+      },
+      "NUnit.Allure/1.0.6.2": {
+        "dependencies": {
+          "Allure.Commons": "2.3.64.1",
+          "NUnit": "3.12.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NUnit.Allure.dll": {
+            "assemblyVersion": "1.0.6.2",
+            "fileVersion": "1.0.6.2"
+          }
+        }
+      },
+      "NUnit3TestAdapter/3.16.0": {},
+      "Selenium.Support/3.141.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "3.141.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/3.141.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "3.141.0.0",
+            "fileVersion": "3.141.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Allure.Commons/2.3.64.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3X7NWbfYTiHrVFJdZfU+8STY/X7GQoQvf8DoGFL/eOokeUNAQt1YGDMJatwX5AiwwJNjXSOlZMUuj163hNorMg==",
+      "path": "allure.commons/2.3.64.1",
+      "hashPath": "allure.commons.2.3.64.1.nupkg.sha512"
+    },
+    "Microsoft.NET.Test.Sdk/16.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gjjqS3rCzg4DrSQq4YwJwUUvc49HtXpXrZkW9fu5VG+K4X+Ztn4+UzolyML7wPnl/EAIufk4hu628bJB4WtpFg==",
+      "path": "microsoft.net.test.sdk/16.4.0",
+      "hashPath": "microsoft.net.test.sdk.16.4.0.nupkg.sha512"
+    },
+    "MimeTypesMap/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YP1BGuPl+EMPf2++puxTXiDvrwsW38/ORGCm2u17YI3h8qejz2PyGrn4nWFpIz30dAbZkdAEjxD0N+5gMWNhbw==",
+      "path": "mimetypesmap/1.0.3",
+      "hashPath": "mimetypesmap.1.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "NUnit/3.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+      "path": "nunit/3.12.0",
+      "hashPath": "nunit.3.12.0.nupkg.sha512"
+    },
+    "NUnit.Allure/1.0.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ehnyNsvAlFr/9UIYHdF7sePHQwqKzoqrGq1BicWRNYNzvyXEC3fSEzZLnkkAyvNmUcJDKH78Z9TYOvXaA0gpVw==",
+      "path": "nunit.allure/1.0.6.2",
+      "hashPath": "nunit.allure.1.0.6.2.nupkg.sha512"
+    },
+    "NUnit3TestAdapter/3.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yK8Y7DYboIz1pSVvjPN4SGGzso8OW5ZZ06kqqkeF4AXKvAeNo2n1bm41mArKk94+lKrD5m6RaWKnvoFk/U+z5w==",
+      "path": "nunit3testadapter/3.16.0",
+      "hashPath": "nunit3testadapter.3.16.0.nupkg.sha512"
+    },
+    "Selenium.Support/3.141.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F4sxMCXGyqWtbw5qsniJRgza2UsBnslHwFgNA2p7hPxvJhqg73lyXu/ZscJ7FSfRvq3eJrosysv92+4sZ3vWsg==",
+      "path": "selenium.support/3.141.0",
+      "hashPath": "selenium.support.3.141.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/3.141.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wPqzXO3f79DzqauTZSzLMKiaBCN0Z2Mv7KvWP+hnV6EL88zh/pJJnFtdIR1X5wa3hsTOpF/bBJs45rz7kArsiA==",
+      "path": "selenium.webdriver/3.141.0",
+      "hashPath": "selenium.webdriver.3.141.0.nupkg.sha512"
+    }
+  }
+}
