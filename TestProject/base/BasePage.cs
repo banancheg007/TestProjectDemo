@@ -9,7 +9,9 @@ namespace TestProject
 {
     class BasePage
 {
-        public static IWebDriver Driver{ get { return DriverManager.CurrentDriver; } }
+        public string key;
+       
+        public IWebDriver Driver{ get { return MultitonDriverManager.GetDriver(key); } }
 
         protected void Navigate(String url)
         {
@@ -21,6 +23,10 @@ namespace TestProject
           return  Driver.FindElement(locator);
         }
 
+        public BasePage (string key)
+        {
+            this.key = key;
+        }
        
         public void WaitForDisplayed(By locator)
         {

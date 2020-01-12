@@ -10,3 +10,4 @@ C:\Users\User\source\repos\TestProject\TestProject\bin\Debug\netcoreapp2.2\TestP
 C:\Users\User\source\repos\TestProject\TestProject\bin\Debug\netcoreapp2.2\TestProject.pdb
 C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.dll
 C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.pdb
+C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.csprojAssemblyReference.cache

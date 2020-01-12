@@ -18,7 +18,7 @@ namespace TestProject.pages
         }
 
 
-      
+        public StartPage(string key) : base(key) { }
 
         public void SearchByKeyWord(string text)
         {
