@@ -9,7 +9,7 @@ namespace TestProject.utils
     class Constants
     {
         public const string GoogleUrl = "https://www.google.com";
-        public const string SearchString = "my TeXT";
+        public const string SearchString = "TeXT";
         public const string AboutGoogleCompanyUrl = "https://about.google/";
 
 

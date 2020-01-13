@@ -1,0 +1,63 @@
+{
+  "uuid": "eca8bf09-acd2-48b4-90b9-6dc4fddd31d5-tr-0-1002",
+  "historyId": "TestProject.tests.RegressTest(\"firefox\").SearchTest",
+  "fullName": "TestProject.tests.RegressTest(\"firefox\").SearchTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5F9SL68"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.tests.RegressTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchTest"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.tests.RegressTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SearchTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "68aaa8c1b7fa4c158e75d922e4e0c93e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1578914388867,
+      "stop": 1578914409113
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1578914388866,
+  "stop": 1578914409122
+}

@@ -1,0 +1,47 @@
+{
+  "uuid": "0-1009",
+  "fullName": "TestProject.tests.RegressTest.SearchTestWithDataProvider",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "Ignored"
+    },
+    {
+      "name": "subSuite",
+      "value": "skip"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5F9SL68"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.tests.RegressTest"
+    },
+    {
+      "name": "testMethod"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.tests.RegressTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchTestWithDataProvider",
+  "status": "skipped",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1578914409216,
+  "stop": 1578914409216
+}

@@ -7,7 +7,8 @@ using TestProject.utils;
 
 namespace TestProject.tests
 {
-    [TestFixture("chrome")]
+    
+    [TestFixture("firefox")]
     [Parallelizable]
     class RegressTest:BaseTest
     {
@@ -24,7 +25,7 @@ namespace TestProject.tests
         public void BeforeTest()
         {
             StartPage = new StartPage(key);
-            //ResultPage = new ResultPage(key);
+            ResultPage = new ResultPage(key);
         }
 
 

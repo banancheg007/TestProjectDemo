@@ -16,6 +16,8 @@ namespace TestProject
         private readonly static ConcurrentDictionary<string, IWebDriver> driverPool =
           new ConcurrentDictionary<string, IWebDriver>();
 
+        public static IWebDriver driver;
+
         public MultitonDriverManager()
         {
 
@@ -25,21 +27,32 @@ namespace TestProject
          public static IWebDriver GetDriver(string key)
         {
             //lock (Lock)
-            {       
+            {
+                if (driver == null)
                     switch (key)
                     {
-
+                    
                     case "chrome":
-                           return driverPool.GetOrAdd("chrome",  new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            driver = driverPool.GetOrAdd("chrome", new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            break;
 
                     case "explorer":
-                        return driverPool.GetOrAdd("explorer", new InternetExplorerDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            // return driverPool.GetOrAdd("explorer", new InternetExplorerDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            driver = driverPool.GetOrAdd("explorer", new InternetExplorerDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            break;
+                        case "firefox":
+                            //  return driverPool.GetOrAdd("firefox" , new FirefoxDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            driver = driverPool.GetOrAdd("firefox", new FirefoxDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            break;
+                        default: driver =  driverPool.GetOrAdd("firefox", new FirefoxDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
+                            break;
+                    }
 
-                    case "firefox":
-                        return driverPool.GetOrAdd("firefox" , new FirefoxDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
-
-                    default: return driverPool.GetOrAdd("firefox", new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)));
-                }
+                /*if (driver == null)
+                {
+                    driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
+                }*/
+                return driver;
                 
                 
               

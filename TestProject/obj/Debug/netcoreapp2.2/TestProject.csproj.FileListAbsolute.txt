@@ -11,3 +11,14 @@ C:\Users\User\source\repos\TestProject\TestProject\bin\Debug\netcoreapp2.2\TestP
 C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.dll
 C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.pdb
 C:\Users\User\source\repos\TestProject\TestProject\obj\Debug\netcoreapp2.2\TestProject.csprojAssemblyReference.cache
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\TestProject.deps.json
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\TestProject.runtimeconfig.json
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\TestProject.runtimeconfig.dev.json
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\TestProject.dll
+C:\Users\Andersen\source\MeetupProj\TestProject\bin\Debug\netcoreapp2.2\TestProject.pdb
+C:\Users\Andersen\source\MeetupProj\TestProject\obj\Debug\netcoreapp2.2\TestProject.dll
+C:\Users\Andersen\source\MeetupProj\TestProject\obj\Debug\netcoreapp2.2\TestProject.pdb

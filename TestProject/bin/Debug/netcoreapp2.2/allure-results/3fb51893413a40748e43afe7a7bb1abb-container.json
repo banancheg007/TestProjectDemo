@@ -1,0 +1,59 @@
+{
+  "uuid": "55d89742-e0dd-4060-89b3-4dc302ae9038-tc-0-1001",
+  "name": "TestProject.tests.RegressTest(\"firefox\").SearchTest",
+  "children": [
+    "eca8bf09-acd2-48b4-90b9-6dc4fddd31d5-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1578914409105,
+      "stop": 1578914409105
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1578914409106,
+      "stop": 1578914409106
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1578914409106,
+      "stop": 1578914409106
+    }
+  ],
+  "links": [],
+  "start": 1578914388859,
+  "stop": 1578914409174
+}
