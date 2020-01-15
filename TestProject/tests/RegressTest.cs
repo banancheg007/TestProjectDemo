@@ -7,17 +7,25 @@ using TestProject.utils;
 
 namespace TestProject.tests
 {
+    
+    [TestFixture("chrome")]
     [Parallelizable]
     class RegressTest:BaseTest
     {
+        string key;
         private StartPage StartPage;
         private ResultPage ResultPage;
+
+        public RegressTest(string key)
+        {
+            this.key = key;
+        }
 
         [SetUp]
         public void BeforeTest()
         {
-            StartPage = new StartPage();
-            ResultPage = new ResultPage();
+            StartPage = new StartPage(key);
+            ResultPage = new ResultPage(key);
         }
 
 
@@ -29,7 +37,7 @@ namespace TestProject.tests
             Assert.That(ResultPage.GetWebElement(ResultPage.FirstResultText).Text, Does.Contain(Constants.SearchString).IgnoreCase);
         }
 
-
+        [Ignore("skip")]
         [Test, TestCaseSource(typeof(Constants), "TestDatas")]
         public void SearchTestWithDataProvider(string text)
         {

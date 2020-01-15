@@ -1,0 +1,12 @@
+{
+  "uuid": "0-1001-ignored",
+  "name": "TestProject.tests.RegressTest",
+  "children": [
+    "0-1009"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1579081685609,
+  "stop": 1579081701738
+}

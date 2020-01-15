@@ -1,0 +1,59 @@
+{
+  "uuid": "e8067ed4-1be2-4dc9-a408-eb8055610d9f-tc-0-1001",
+  "name": "TestProject.tests.RegressTest(\"chrome\").SearchTest",
+  "children": [
+    "b2855558-aee2-4314-b2d8-073bb8f878d2-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "ClearResultsDir",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1579081701449,
+      "stop": 1579081701449
+    },
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1579081701451,
+      "stop": 1579081701451
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1579081701451,
+      "stop": 1579081701451
+    }
+  ],
+  "links": [],
+  "start": 1579081685638,
+  "stop": 1579081701621
+}

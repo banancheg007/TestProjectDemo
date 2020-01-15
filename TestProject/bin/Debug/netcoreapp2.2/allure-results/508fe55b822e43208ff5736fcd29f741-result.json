@@ -1,0 +1,67 @@
+{
+  "uuid": "b2855558-aee2-4314-b2d8-073bb8f878d2-tr-0-1002",
+  "historyId": "TestProject.tests.RegressTest(\"chrome\").SearchTest",
+  "fullName": "TestProject.tests.RegressTest(\"chrome\").SearchTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-5F9SL68"
+    },
+    {
+      "name": "testClass",
+      "value": "TestProject.tests.RegressTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "SearchTest"
+    },
+    {
+      "name": "package",
+      "value": "TestProject.tests.RegressTest"
+    }
+  ],
+  "links": [],
+  "name": "SearchTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.InvalidOperationException : session not created\nfrom chrome not reachable\n  (Session info: chrome=79.0.3945.117) (SessionNotCreated)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at TestProject.MultitonDriverManager.GetDriver(String key) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\MultitonDriverManager.cs:line 36\r\n   at TestProject.BasePage.get_Driver() in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 14\r\n   at TestProject.BasePage.WaitForDisplayed(By locator) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 33\r\n   at TestProject.BasePage.Input(By locator, String text) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 41\r\n   at TestProject.pages.StartPage.SearchByKeyWord(String text) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\pages\\StartPage.cs:line 25\r\n   at TestProject.tests.RegressTest.SearchTest() in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\tests\\RegressTest.cs:line 36"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "SearchTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.InvalidOperationException : session not created\nfrom chrome not reachable\n  (Session info: chrome=79.0.3945.117) (SessionNotCreated)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.StartSession(ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities)\r\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\r\n   at TestProject.MultitonDriverManager.GetDriver(String key) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\MultitonDriverManager.cs:line 36\r\n   at TestProject.BasePage.get_Driver() in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 14\r\n   at TestProject.BasePage.WaitForDisplayed(By locator) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 33\r\n   at TestProject.BasePage.Input(By locator, String text) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\base\\BasePage.cs:line 41\r\n   at TestProject.pages.StartPage.SearchByKeyWord(String text) in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\pages\\StartPage.cs:line 25\r\n   at TestProject.tests.RegressTest.SearchTest() in C:\\Users\\Andersen\\source\\MeetupProj\\TestProject\\tests\\RegressTest.cs:line 36"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e5c69055734f4d97b0bf5fa90e6340d2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1579081685657,
+      "stop": 1579081701485
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1579081685651,
+  "stop": 1579081701518
+}

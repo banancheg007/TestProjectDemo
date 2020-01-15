@@ -61,9 +61,9 @@ namespace TestProject
 
         public void MakeScreenShot()
         {
-            AllureLifecycle.Instance.AddAttachment($"Screenshot [{DateTime.Now:HH:mm:ss}]",
+            /*AllureLifecycle.Instance.AddAttachment($"Screenshot [{DateTime.Now:HH:mm:ss}]",
                  "image/png",
-                 _driver.TakeScreenshot().AsByteArray);
+                 _driver.TakeScreenshot().AsByteArray);*/
         }
 
 
